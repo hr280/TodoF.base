@@ -1,0 +1,59 @@
+
+
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ecf0f3;
+}
+
+.container {
+    width: 360px;
+    
+
+}
+
+#work {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    background: #ecf0f3;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    background: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+  
+    height: 60px;
+    line-height: 60px;
+   
+}
+li:nth-child(2n){
+    background-color:#d0d0d0;
+}
+
+
+
+
